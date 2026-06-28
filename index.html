@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asma</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ SIDEBAR NAV ═══ -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+      <span class="brand-name" id="nav-name">Asma</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link active" data-page="home">
+        <span class="nav-icon">◈</span> Home
+      </a></li>
+      <li><a href="pages/teaching.html" class="nav-link" data-page="teaching">
+        <span class="nav-icon">◈</span> Teaching
+      </a></li>
+      <li><a href="pages/fieldwork.html" class="nav-link" data-page="fieldwork">
+        <span class="nav-icon">◈</span> Fieldwork
+      </a></li>
+      <li><a href="pages/publications.html" class="nav-link" data-page="publications">
+        <span class="nav-icon">◈</span> Publications
+      </a></li>
+      <li><a href="pages/cv.html" class="nav-link" data-page="cv">
+        <span class="nav-icon">◈</span> CV
+      </a></li>
+      <li><a href="pages/repositories.html" class="nav-link" data-page="repositories">
+        <span class="nav-icon">◈</span> Repositories
+      </a></li>
+    </ul>
+
+    <div class="sidebar-footer">
+      <a href="mailto:asma1@arizona.edu" class="contact-link">asma1@arizona.edu</a>
+      <div class="social-links">
+        <a href="https://github.com/amyasma" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════ MOBILE HEADER ═══ -->
+  <header class="mobile-header">
+    <span class="mobile-brand">Dr. Your Name</span>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ═══════════════════════════════════════ MAIN CONTENT ═══ -->
+  <main class="main-content">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-meta">
+        <span class="discipline-tag"></span>
+      </div>
+      <div class="hero-photo-wrapper">
+        <div class="hero-photo-frame">
+          <!-- Replace src with your actual photo -->
+          <img src="assets/images/profile-photo.jpg"
+               alt="Profile photo of Dr. [Asma]"
+               class="hero-photo"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="hero-photo-placeholder">
+            <span>Your Photo Here</span>
+            <small>assets/images/profile-photo.jpg</small>
+          </div>
+        </div>
+        <div class="hero-text">
+          <h1 class="hero-name"><em>Asma</em></h1>
+          <p class="hero-title">PhD Candidate</p>
+          <p class="hero-affiliation">Department of Linguistics
+	  <br>University of Arizona
+	  <br><em>asma1@arizona.edu</em></p>
+          <p class="hero-bio">
+	  I am a fourth-year Ph.D. candidate in Linguistics specializing in syntax, with a focus on argument structure and the syntax–semantics interface. My research examines how grammatical structure encodes meaning and how these representations are realized across languages and in the mind.
+
+Working within the generative tradition, I investigate how hierarchical structure constrains interpretation, with particular attention to features such as volitionality, agency, and agreement. I also explore how these representations are reflected in language processing and how they compare to artificial systems such as large language models.
+
+My empirical work focuses on Indo-Aryan languages, especially Punjabi, Urdu, and the critically endangered Dawoodi language of northern Pakistan, combining theoretical analysis, experimental methods, and fieldwork. My research includes work on volitionality in Punjabi, agreement attraction in Urdu, and ongoing fieldwork on Dawoodi aimed at documenting its syntax and supporting language preservation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Asma · Built with GitHub Pages</p>
+      <p class="footer-affil">Department of Linguisticcs · University
+      of Arizona · Tucson, AZ</p>
+    </footer>
+
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
