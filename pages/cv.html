@@ -3,26 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Curriculum Vitae — Dr. [Your Name]</title>
+  <title>Curriculum Vitae</title>
   <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/course.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet" />
 </head>
 <body>
-
   <nav class="sidebar" id="sidebar">
     <div class="sidebar-brand">
       <span class="brand-name" id="nav-name">Asma</span>
     </div>
-
     <ul class="nav-links">
       <li><a href="../index.html" class="nav-link"><span class="nav-icon">◈</span> Home</a></li>
       <li><a href="teaching.html" class="nav-link"><span class="nav-icon">◈</span> Teaching</a></li>
       <li><a href="fieldwork.html" class="nav-link"><span class="nav-icon">◈</span> Fieldwork</a></li>
       <li><a href="publications.html" class="nav-link"><span class="nav-icon">◈</span> Publications</a></li>
-      <li><a href="cv.html" class="nav-link"><span class="nav-icon">◈</span> CV</a></li>
+      <li><a href="cv.html" class="nav-link active"><span class="nav-icon">◈</span> CV</a></li>
       <li><a href="repositories.html" class="nav-link"><span class="nav-icon">◈</span> Repositories</a></li>
+      <li><a href="art.html" class="nav-link"><span class="nav-icon">◈</span> Art</a></li>
     </ul>
     <div class="sidebar-footer">
       <a href="mailto:asma1@arizona.edu" class="contact-link">asma1@arizona.edu</a>
@@ -31,34 +31,51 @@
       </div>
     </div>
   </nav>
-
   <header class="mobile-header">
-    <span class="mobile-brand">Dr. Your Name</span>
+    <span class="mobile-brand">Asma</span>
     <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
   </header>
-
   <main class="main-content">
-
     <div class="page-header">
       <div class="page-header-meta">Academic Portfolio · CV</div>
       <h1 class="page-title">Curriculum <em>Vitae</em></h1>
       <p class="page-subtitle"></p>
     </div>
-
     <div class="page-body">
 
       <!-- PDF DOWNLOAD BAR -->
       <div class="cv-download-bar">
         <p>A PDF version of the full CV is available for download.</p>
-        <!-- Replace href with actual path to your CV PDF -->
         <a href="../assets/docs/cv.pdf" class="btn-primary" target="_blank">↓ Download CV (PDF)</a>
+      </div>
 
+      <!-- CV PREVIEW -->
+      <div class="section-rule" style="padding:0; margin: 2.5rem 0 1.5rem;">
+        <span class="rule-label">Preview</span>
+      </div>
 
- 
+      <div class="syllabus-doc">
+        <div class="syllabus-doc-header">
+          <span>cv.pdf</span>
+          <a href="../assets/docs/cv.pdf" target="_blank">Open in new tab ↗</a>
+        </div>
+        <iframe
+          src="../assets/docs/cv.pdf"
+          class="syllabus-iframe"
+          title="CV preview">
+          <p>Your browser does not support embedded PDFs.
+            <a href="../assets/docs/cv.pdf">Download the CV here.</a>
+          </p>
+        </iframe>
+      </div>
 
+    </div><!-- /page-body -->
 
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Asma · Built with GitHub Pages</p>
+      <p class="footer-affil">Department of Linguistics · University of Arizona · Tucson, AZ</p>
+    </footer>
   </main>
-
   <script src="../assets/js/main.js"></script>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
