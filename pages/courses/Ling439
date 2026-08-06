@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LING 341 · Language Development</title>
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="stylesheet" href="../../assets/css/course.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+      <span class="brand-name">Asma</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="../../index.html" class="nav-link"><span class="nav-icon">◈</span> Home</a></li>
+      <li><a href="../teaching.html" class="nav-link active"><span class="nav-icon">◈</span> Teaching</a></li>
+      <li><a href="../fieldwork.html" class="nav-link"><span class="nav-icon">◈</span> Fieldwork</a></li>
+      <li><a href="../publications.html" class="nav-link"><span class="nav-icon">◈</span> Publications</a></li>
+      <li><a href="../cv.html" class="nav-link"><span class="nav-icon">◈</span> CV</a></li>
+      <li><a href="../repositories.html" class="nav-link"><span class="nav-icon">◈</span> Repositories</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      <a href="mailto:asma1@arizona.edu" class="contact-link">asma1@arizona.edu</a>
+      <div class="social-links">
+        <a href="https://github.com/amyasma" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="mobile-header">
+    <span class="mobile-brand">Asma</span>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </header>
+
+  <main class="main-content">
+
+    <!-- COURSE HEADER -->
+    <div class="page-header">
+      <a href="../teaching.html" class="back-link">← Teaching</a>
+      <div class="course-header-meta">
+        <span class="course-badge">LING/INFO 439</span>
+        <span class="course-badge">Undergraduate</span>
+        <span class="course-badge">In Person</span>
+      </div>
+      <div class="page-header-meta">Department of Linguistics</div>
+      <h1 class="page-title">Language <em>Development</em></h1>
+      <p class="page-subtitle">
+      <div class="course-header-actions">
+        <a href="../../assets/docs/syllabus-LING341.pdf" class="btn-primary" target="_blank">↓ Download Syllabus</a>
+      </div>
+    </div>
+
+    <div class="page-body">
+
+      <!-- ABOUT THIS COURSE -->
+      <div class="section-rule" style="padding:0; margin: 0 0 1.75rem;">
+        <span class="rule-label">About This Course</span>
+      </div>
+
+      <div class="course-about">
+        <div class="course-about-text">
+          <p class="course-long-desc">
+            to be decided.
+          </p>
+          <p class="course-long-desc">
+            to be decided.
+          </p>
+        </div>
+
+        <div class="course-sidebar-info">
+          <div class="info-block">
+            <div class="info-label">Instructor</div>
+            <div class="info-value">Asma</div>
+          </div>
+          <div class="info-block">
+            <div class="info-label">Credits</div>
+            <div class="info-value">3 credit hours</div>
+          </div>
+          <div class="info-block">
+            <div class="info-label">Prerequisites</div>
+            <div class="info-value">None</div>
+          </div>
+          <div class="info-block">
+            <div class="info-label">Format</div>
+            <div class="info-value">Fully online, via D2L</div>
+          </div>
+          <div class="info-block">
+            <div class="info-label">Textbook</div>
+            <div class="info-value">.</div>
+          </div>
+          <div class="info-block">
+            <div class="info-label">Office Hours</div>
+            <div class="info-value">Flexible &mdash; by appointment</div>
+          </div>
+          <div class="info-block">
+            <div class="info-label">Syllabus</div>
+            <div class="info-value"><a href="../../assets/docs/syllabus-Ling439.pdf" target="_blank" class="info-link">PDF ↗</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GRADING -->
+      <div class="section-rule" style="padding:0; margin: 2.5rem 0 1.5rem;">
+        <span class="rule-label">Grading</span>
+      </div>
+
+      <div class="grading-tables">
+        <table class="data-table">
+          <thead><tr><th>Category</th><th>Points</th><th>Share</th></tr></thead>
+          <tbody>
+          </tbody>
+        </table>
+
+        <table class="data-table">
+          <thead><tr><th>Grade</th><th>Range</th></tr></thead>
+          <tbody>
+            <tr><td>A</td><td class="num">90%+</td></tr>
+            <tr><td>B</td><td class="num">80&ndash;89%</td></tr>
+            <tr><td>C</td><td class="num">70&ndash;79%</td></tr>
+            <tr><td>D</td><td class="num">60&ndash;69%</td></tr>
+            <tr><td>E</td><td class="num">&lt;60%</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="no-exam-note">
+        
+      </p>
+
+      <!-- COURSE SCHEDULE -->
+      <div class="section-rule" style="padding:0; margin: 2.75rem 0 1.5rem;">
+        <span class="rule-label">Course Schedule</span>
+      </div>
+
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Week</th><th>Topic</th><th>Quiz</th><th>Discussion</th></tr></thead>
+          <tbody>
+           
+          </tbody>
+        </table>
+      </div>
+
+      <!-- SYLLABUS -->
+
+
+    </div><!-- /page-body -->
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Asma · Built with GitHub Pages</p>
+      <p class="footer-affil">Department of Linguistics · University of Arizona · Tucson, AZ</p>
+    </footer>
+
+  </main>
+
+  <script src="../../assets/js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
